@@ -1,0 +1,1039 @@
+﻿@charset "UTF-8";
+
+/* **************************************************
+
+Name: corporate.css
+
+Description: additional CSS for Hitachi Global pages
+- http://www.hitachi.com/corporatet/*
+- http://www.hitachi.com/businesses/category/*
+
+Create: 2014.03.XX
+Update: 2015.09.30
+
+Copyright 2014 Hitachi, Ltd.
+
+***************************************************** */
+
+
+
+/* --- Panel --- */
+
+*:first-child+html ul.Panel {margin-bottom: 15px;}
+
+ul.Panel li {
+	/*position: relative;*/
+	width: 230px;
+	/*margin-bottom: 15px;*/
+	/*padding-bottom: 15px;*/
+	background-color: #363434;
+	overflow: hidden;
+	border-radius: 7px 7px 5px 5px;
+	-moz-border-radius: 7px 7px 5px 5px;
+	-webkit-border-radius: 7px 7px 5px 5px;
+	-o-border-radius: 7px 7px 5px 5px;
+	-ms-border-radius: 7px 7px 5px 5px;
+}
+ul.Panel li.FirstItem {margin-bottom: 15px;}
+
+/*ul.Panel li .Inner {
+	display: block;
+}*/
+ul.Panel li div.Inner {
+	height: 18em;
+	padding-bottom: 15px;
+}
+
+.Corporate ul.Panel li {
+	height: auto;
+	padding-bottom: 0;
+}
+.Products ul.Panel li.Column1 {height: 22em;}
+
+ul.Panel li a {
+	/*display: block;*/
+	zoom: 1;
+}
+ul.Panel li.Column1 ul a {
+	display: inline;
+}
+
+ul.Panel li a:link,
+ul.Panel li a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+ul.Panel li a:hover,
+ul.Panel li a:active,
+ul.Panel li .hover a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+ul.Panel li img {
+	display: block;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0;
+}
+
+ul.Panel li strong {
+	display: table-cell;
+	width: 185px;
+	height: 3.5em;
+	padding: 5px 30px 0 15px;
+	background-image: url(../../../image/en/r5/icon/icon_panel_link_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/icon/icon_panel_link.gif)\9;
+	background-repeat: no-repeat;
+	background-position: 198px 55%;
+	background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	-webkit-background-size: 20px 20px;
+	-o-background-size: 20px 20px;
+	-ms-background-size: 20px 20px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 120%;
+	vertical-align: middle;
+}
+*:first-child+html ul.Panel li strong {
+	display: block;
+	height: 3em;
+	padding: 5px 30px 0 15px;
+	background-position: 198px 5px;
+	cursor: pointer;
+}
+.Corporate ul.Panel li strong {
+	width: 180px;
+	height: 4em;
+	padding: 0 35px 0 15px;
+	font-size: 90%;
+	background-position: 198px 50%;
+}
+*:first-child+html .Corporate ul.Panel li strong {
+	display: block;
+	width: 180px;
+	height: 3em;
+	padding: 0 35px 0 15px;
+	background-position: 198px 9px;
+	zoom: 1;
+}
+.Products ul.Panel > li strong .Hyphen {display: none;}
+
+.Products ul.Panel li.Column1 strong {
+	width: 180px;
+	height: 5.4em;
+	padding: 0 35px 0 15px;
+	background-position: 198px 48%;
+}
+
+ul.Panel li span {
+	display: block;
+	padding: 0 15px;
+	color: #fff;
+	font-size: 83%;
+	line-height: 160%;
+}
+ul.Panel li .Inner {
+	padding: 0;
+	font-size: 100%;
+}
+
+ul.Panel li .Radius {
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-image: url(../../../image/en/r5/bg_radius.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+ul.Panel li .LT {
+	top: 0;
+	left: 0;
+	background-position: 0 0;
+}
+ul.Panel li .RT {
+	top: 0;
+	right: 0;
+	background-position: -5px 0;
+}
+ul.Panel li .LB {
+	bottom: 0;
+	left: 0;
+	background-position: 0 -5px;
+}
+ul.Panel li .RB {
+	bottom: 0;
+	right: 0;
+	background-position: -5px -5px;
+}
+
+.Products ul.Panel li.Column1 ul.LinkListStyle2 {
+	padding: 0 15px;
+	font-size: 76%;
+	color: #fff;
+}
+
+.Products ul.Panel li.Column1 ul.LinkListStyle2 li {
+	width: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 120%;
+	background-color: transparent;
+}
+
+.Products ul.Panel li.Column1 ul.ListStyle2 {
+	padding: 0 15px;
+}
+
+.Products ul.Panel li.Column1 ul.ListStyle2 li {
+	width: auto;
+	margin: 0;
+	padding: 5px 0 0;
+	color: #fff;
+	font-size: 90%;
+	line-height: 120%;
+	background: none transparent;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+}
+.Products ul.Panel li.Column1 ul.ListStyle2 li:first-child {padding: 0;}
+
+
+/* --- Panel2 --- */
+
+ul.Panel2 li {
+	position: relative;
+	width: 230px;
+	height: 22.3em;
+	min-height: 355px;
+	margin-bottom: 15px;
+	background-color: #f2f2f2;
+	border-radius: 7px 7px 5px 5px;
+	-moz-border-radius: 7px 7px 5px 5px;
+	-webkit-border-radius: 7px 7px 5px 5px;
+	-o-border-radius: 7px 7px 5px 5px;
+	-ms-border-radius: 7px 7px 5px 5px;
+}
+
+ul.Panel2 li .img {
+	display: block;
+	background-color: #363434;
+	border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-webkit-border-radius: 7px 7px 0 0;
+	-o-border-radius: 7px 7px 0 0;
+	-ms-border-radius: 7px 7px 0 0;
+}
+
+ul.Panel2 li img {
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0;
+}
+
+ul.Panel2 li:hover strong {
+	color: #b1000e;
+	text-decoration: underline;
+}
+
+ul.Panel2 li .Panel2Text {
+	height: 6.8em;
+	padding: 16px 40px 0 15px;
+	background-image: url(../../../image/en/r5/icon/icon_panel2_link_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/icon/icon_panel2_link.gif)\9;
+	background-repeat: no-repeat;
+	background-position: 198px 50%;
+	background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	-webkit-background-size: 20px 20px;
+	-o-background-size: 20px 20px;
+	-ms-background-size: 20px 20px;
+}
+
+ul.Panel2 li .Panel2Text a {
+	display: block;
+	padding-bottom: 7px;
+	color: #333;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 130%;
+	text-decoration: none;
+}
+
+ul.Panel2 li .Panel2Text a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+ul.Panel2 li .Panel2Text .text {
+	display: block;
+	color: #333;
+	font-size: 83%;
+	line-height: 140%;
+}
+
+ul.Panel2 li .Radius {
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-image: url(../../../image/en/r5/bg_radius.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+ul.Panel2 li .LT {
+	top: 0;
+	left: 0;
+	background-position: 0 0;
+}
+ul.Panel2 li .RT {
+	top: 0;
+	right: 0;
+	background-position: -5px 0;
+}
+ul.Panel2 li .LB {
+	bottom: 0;
+	left: 0;
+	background-position: 0 -5px;
+}
+ul.Panel2 li .RB {
+	bottom: 0;
+	right: 0;
+	background-position: -5px -5px;
+}
+
+
+/* --- /businesses/category/* --- */
+
+.Products .PageTitleStyle1 { margin: 0 0 15px; }
+
+.Products h3 img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.Products #VerticalLocalNavi h2 a {
+	padding: 8px 15px;
+}
+.Products #VerticalLocalNavi li a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.Products .TitleStyle1,
+.Products .TitleStyle2 {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+}
+
+.Products .TitleStyle2 h2 {
+	margin: 0 0 25px 0;
+	padding: 0;
+	background-image: none;
+}
+
+.Products .TitleStyle2 h2 img {
+	position: relative;
+}
+
+.Products .TitleStyle2 h2 span {
+	margin: -56px 0 0 40px;
+	padding: 10px 15px 10px 40px;
+	zoom: 1;
+}
+
+.Products .TitleStyle1 ul,
+.Products .TitleStyle2 ul {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	text-align :right;
+}
+.Products .TitleStyle2 ul {top: 23px;}
+
+.Products .TitleStyle1 ul {width: 400px;}
+
+.Products .TitleStyle1 li,
+.Products .TitleStyle2 li {
+	float: none;
+	display: inline-block;
+}
+* html .Products .TitleStyle1 li { display: inline; }
+*:first-child+html .Products .TitleStyle1 li { display: inline; }
+
+.Products .TitleStyle1 li {margin: 0 0 0 15px;}
+
+.Products #BrandingImgStyle { background-color: #fff; }
+
+.CaseStudiesBanner {
+	padding: 0 0 10px;
+	background: #f2f2f2 url(/image/en/r5/corporate/bg_case_studies_banner.gif) repeat-x;
+	text-align: center;
+}
+* html .CaseStudiesBanner { background-position: 0 3px; }
+*:first-child+html .CaseStudiesBanner { background-position: 0 3px; }
+
+.CaseStudiesBanner div {
+	width: 965px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.CaseStudiesBanner div iframe {
+	margin-bottom: 0 !important;
+}
+* html .CaseStudiesBanner div iframe { height: 350px !important; }
+*:first-child+html .CaseStudiesBanner div iframe { height: 350px !important; }
+
+
+
+/* --- /corporate/index.html > Page Title --- */
+
+.Company .PageTitleStyle1 { margin: 0 0 15px; }
+
+
+
+/* --- /corporate/index.html > CategoryNavi --- */
+
+.Company .CategoryNavi ul {
+	background-image: none;
+}
+
+.Company .CategoryNavi li a {
+	width: 138px;
+	height: auto;
+	min-height: 40px;
+	padding: 50px 0 10px 0;
+	background-repeat: no-repeat;
+	background-size: 50px 210px;
+	-moz-background-size: 50px 210px;
+	-webkit-background-size: 50px 210px;
+	-o-background-size: 50px 210px;
+	-ms-background-size: 50px 210px;
+	font-size: 76%;
+}
+.Company .CategoryNavi li a#AboutNavi1 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_group_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_group.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi2 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_news_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_news.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi3 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_ir_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_ir.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi4 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_rd_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_rd.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi5 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_csr_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_csr.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi6 {
+	background-image: url(../../../image/en/r5/corporate/about_icon_environment_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_environment.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi7 {
+	width: 137px;
+	background-image: url(../../../image/en/r5/corporate/about_icon_recruit_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/corporate/about_icon_recruit.gif)\9;
+}
+.Company .CategoryNavi li a#AboutNavi7:link:before,
+.Company .CategoryNavi li a#AboutNavi7:visited:before {
+	background-color: #262626;
+}
+.Company .CategoryNavi li a:link,
+.Company .CategoryNavi li a:visited {background-position: center 0px;}
+.Company .CategoryNavi li a:hover,
+.Company .CategoryNavi li a:active {background-position: center -160px;}
+
+.Company .CategoryNavi li a span {
+	display: table-cell;
+	width: 138px;
+	height: 40px;
+	line-height: 140%;
+	text-align: center;
+	vertical-align: middle;
+}
+*:first-child+html .Company .CategoryNavi li a span {
+	display: block;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+
+/* --- /corporate/index.html > BoxPatternA --- */
+
+.Company .BoxPatternA {
+	position: relative;
+	margin: 0 0 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+*:first-child+html .Company .BoxPatternA {
+	margin-top: 15px;
+}
+
+.Company .BoxPatternA h2 {
+	position: relative;
+	margin: -25px 0 0;
+	padding: 20px 140px 20px 15px;
+	background-color: #363434;
+	background-image: url(../../../image/en/r5/icon/icon_panel_link_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/icon/icon_panel_link.gif)\9;
+	background-repeat: no-repeat;
+	background-position: 443px 50%;
+	background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	-webkit-background-size: 20px 20px;
+	-o-background-size: 20px 20px;
+	-ms-background-size: 20px 20px;
+	font-size: 100%;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0;
+}
+
+.Company .BoxPatternA h2 a {
+	min-height: auto;
+	margin: 0;
+	background-image: none !important;
+	font-size: 90%;
+	font-weight: bold;
+}
+.Company .BoxPatternA h2 a:link,
+.Company .BoxPatternA h2 a:visited {
+	padding: 0;
+	background-color: #363434;
+	border-right-style: none !important;
+}
+.Company .BoxPatternA h2 a:hover,
+.Company .BoxPatternA h2 a:active {
+	padding: 0;
+	background-color: #363434;
+	text-decoration: underline;
+	border-right-style: none !important;
+}
+
+.Company .BoxPatternA h2:hover a {
+	text-decoration: underline;
+}
+
+.Company .BoxPatternA h2 span {
+	padding: 0;
+	color: #fff;
+	background-color: transparent;
+	font-size: 83%;
+	font-weight: normal;
+	line-height: 160%;
+}
+
+.Company .BoxPatternA h2 img {
+	position: absolute;
+	left: 366px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.Company .BoxPatternA .Inner {
+	padding: 15px 5px 0 5px;
+}
+
+.Company .BoxPatternA .Radius {
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-image: url(/image/en/r5/bg_radius.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.Company .BoxPatternA .LT {
+	top: -10px;
+	left: 0;
+	background-position: 0 0;
+}
+.Company .BoxPatternA .RT {
+	top: -10px;
+	right: 0;
+	background-position: -5px 0;
+}
+.Company .BoxPatternA .LB {
+	bottom: 0;
+	left: 0;
+	background-position: 0 -5px;
+}
+.Company .BoxPatternA .RB {
+	bottom: 0;
+	right: 0;
+	background-position: -5px -5px;
+}
+
+
+/* --- /corporate/index.html > News Release --- */
+
+.Company .BoxPatternA dt {
+	font-size: 90%;
+}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 {
+	padding: 0;
+}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li {
+	padding-bottom: 5px;
+	font-size: 90%;
+	zoom: 1;
+}
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li a strong {display: none;}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li a img {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li span {
+	display: block;
+	float: right;
+	width: 100px;
+	margin-left: 15px;
+}
+
+.Company .BoxPatternA .Inner ul.LinkListStyle1 li span img {
+	width: 100px;
+}
+
+
+/* --- /corporate/index.html > YouTube --- */
+
+.Company .YouTube {display: none;}
+.JS .Company .YouTube {display: block;}
+
+.Company ul#YouTube {
+	margin: -15px 0 0;
+	padding: 0;
+}
+
+.Company ul#YouTube li {
+	margin: 0 -5px;
+	line-height: 100%;
+}
+
+.Company ul#YouTube li a {
+	display: block;
+	padding: 15px 40px 15px 15px;
+	text-decoration: none;
+	background-image: url(../../../image/en/r5/icon/icon_panel2_link_hd.gif);
+	background-image/*\**/: url(../../../image/en/r5/icon/icon_panel2_link.gif)\9;
+	background-repeat: no-repeat;
+	background-position: 443px 50%;
+	background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	-webkit-background-size: 20px 20px;
+	-o-background-size: 20px 20px;
+	-ms-background-size: 20px 20px;
+	border-top: solid 1px #fff;
+}
+.Company ul#YouTube li.FirstItem a {border-top: 0 none;}
+
+.Company ul#YouTube li .TextStyle1 a {
+	display: inline;
+	padding: 0;
+	text-decoration: underline;
+	border-top: 0 none;
+}
+
+.Company ul#YouTube li .YtImg {
+	display: block;
+	float: left;
+	position: relative;
+	width: 120px;
+	height: 68px;
+	overflow: hidden;
+}
+
+.Company ul#YouTube li .YtImg img {
+	position: absolute;
+	width: 120px;
+	left: 0;
+	top: -12px;
+}
+
+.Company ul#YouTube li .YtImg .YtTime {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 3px;
+	background-color: #111;
+	color: #fff;
+	font-size: 67%;
+	line-height: 100%;
+}
+
+.Company ul#YouTube li strong {
+	display: block;
+	float: right;
+	width: 285px;
+	padding-bottom: 5px;
+	color: #333;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.Company ul#YouTube li a:hover strong,
+.Company ul#YouTube li a:active strong {
+	color: #b1000e;
+	text-decoration: underline;
+}
+
+.Company ul#YouTube li .YtData {
+	display: block;
+	float: right;
+	width: 285px;
+	color: #666;
+	font-size: 67%;
+}
+
+.Company ul#YouTube li p {padding: 15px 15px 10px;}
+
+
+
+/* --- /corporate/index.html > Twitter --- */
+
+.Company .Twitter {display: none;}
+.JS .Company .Twitter {display: block;}
+
+.Company .Twitter h2 {
+	margin: -15px 0 0 0;
+	padding: 18px 50px 18px 15px;
+}
+
+.Company .Twitter .Inner {
+	padding: 0 0 0 15px;
+}
+
+.Company .Twitter a.twitter-timeline {
+	display: block;
+	padding: 15px 15px 10px 0;
+	font-size: 90%;
+}
+
+.Company .Twitter .BoxPatternA .LT {top: 0;}
+.Company .Twitter .BoxPatternA .RT {top: 0;}
+
+
+/* --- /corporate/* > Play You Tube --- */
+
+#ModalAboutYouTubeCover {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 100;
+}
+
+#ModalAboutYouTube {
+	display: none;
+	position: absolute;
+	padding: 50px;
+	z-index: 102;
+}
+
+#ModalAboutYouTube .Inner {
+	position: relative;
+	background-color: #000;
+	box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+	-o-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+	-ms-box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+}
+*:first-child+html #ModalAboutYouTube .Inner {background-color: #f2f2f2;}
+
+#ModalAboutYouTube iframe {
+	display: block;
+	width: 100%;
+}
+
+#ModalAboutYouTube .Title {
+	height: 50px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+
+#ModalAboutYouTube .Title p {
+	display: table-cell;
+	height: 50px;
+	padding: 0 80px 0 20px;
+	vertical-align: middle;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 130%;
+	color: #575757;
+}
+*:first-child+html #ModalAboutYouTube .Title p {
+	display: block;
+	height: 35px;
+	padding-top: 15px;
+}
+
+#ModalAboutYouTube .BtnClose {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	line-height: 130%;
+}
+
+#ModalAboutYouTube .BtnClose a {
+	display: table-cell;
+	min-width: 50px;
+	height: 30px;
+	padding: 20px 5px 0;
+	font-size: 76%;
+	text-align: center;
+	background-image: url(../../../image/en/r1/icon/icon_close_hd.gif);
+	background-image/*\**/: url(../../../image/en/r1/icon/icon_close.gif)\9;
+	background-position: center 7px;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	-moz-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-ms-background-size: 16px 16px;
+	vertical-align: middle;
+}
+*:first-child+html #ModalAboutYouTube .BtnClose a {
+	display: block;
+	height: 25px;
+	padding: 25px 5px 0;
+}
+
+#ModalAboutYouTube .BtnClose a:link,
+#ModalAboutYouTube .BtnClose a:visited {
+	color: #fff;
+	background-color: #e60027;
+	text-decoration: none;
+}
+#ModalAboutYouTube .BtnClose a:hover,
+#ModalAboutYouTube .BtnClose a:active {
+	color: #fff;
+	background-color: #b1000e;
+	text-decoration: none;
+}
+
+#ModalAboutYouTube .l {
+	position: absolute;
+	width: 35px;
+	height: 100%;
+	top: 0;
+	left: -35px;
+	background: url(../../../image/en/r1/bg_modal_l.png) repeat-y;
+}
+#ModalAboutYouTube .r {
+	position: absolute;
+	width: 35px;
+	height: 100%;
+	top: 0;
+	right: -35px;
+	background: url(../../../image/en/r1/bg_modal_r.png) repeat-y;
+}
+#ModalAboutYouTube .t {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	top: -35px;
+	left: 0;
+	background: url(../../../image/en/r1/bg_modal_t.png) repeat-x;
+}
+#ModalAboutYouTube .b {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	bottom: -35px;
+	left: 0;
+	background: url(../../../image/en/r1/bg_modal_b.png) repeat-x;
+}
+#ModalAboutYouTube .lt {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: -35px;
+	left: -35px;
+	background: url(../../../image/en/r1/bg_modal_corner.png) no-repeat left top;
+}
+#ModalAboutYouTube .lb {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	bottom: -35px;
+	left: -35px;
+	background: url(../../../image/en/r1/bg_modal_corner.png) no-repeat left bottom;
+}
+#ModalAboutYouTube .rt {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: -35px;
+	right: -35px;
+	background: url(../../../image/en/r1/bg_modal_corner.png) no-repeat right top;
+}
+#ModalAboutYouTube .rb {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	bottom: -35px;
+	right: -35px;
+	background: url(../../../image/en/r1/bg_modal_corner.png) no-repeat right bottom;
+}
+
+
+/* --- /corporate/about/*  --- */
+
+.Corporate h3 {
+	position: relative;
+}
+
+.Corporate .Note {
+	margin: -15px 0 5px;
+}
+
+
+/* --- /corporate/about/* > Map --- */
+
+#Map {
+	width: 475px;
+	height: 530px;
+	margin-bottom: 20px;
+}
+
+#Map img {
+	max-width: none;
+}
+
+#Map + ul {
+	margin: -15px 0 15px;
+}
+
+
+/* --- /New/cnews/index.html --- */
+
+.NewsRelease .DateListStyle2 {
+	border-bottom: solid 1px #ddd;
+}
+
+.NewsRelease .DateListStyle2 dt {
+	width: 10em;
+	padding: 15px 0 !important;
+	border-top: solid 1px #ddd;
+}
+
+.NewsRelease .DateListStyle2 ul {
+	margin: 0 !important;
+}
+
+.NewsRelease .DateListStyle2 li {
+	padding: 15px 0 !important;
+	border-top: solid 1px #ddd;
+	overflow: hidden;
+}
+
+.NewsRelease .DateListStyle2 a {
+	max-width: 430px;
+}
+
+.NewsRelease .DateListStyle2 span {
+	display: block;
+	float: right;
+	width: 120px;
+	margin-left: 15px;
+}
+
+.BackNumber {
+	margin: 0 0 10px;
+}
+
+.BackNumber li {
+	float: left;
+	margin: 0 15px 10px 0;
+	padding: 0 15px 0 0;
+	border-right: solid 1px #ddd;
+	white-space: nowrap;
+	font-size: 90%;
+}
+
+.BackNumber a:link,
+.BackNumber a:visited {
+	text-decoration: none;
+}
+.BackNumber a:hover,
+.BackNumber a:active {
+	text-decoration: underline;
+}
+
+
+
+/* for print
+=========================================================================================== */
+
+@media print {
+
+	#ModalAboutYouTubeCover {
+		position/*\**/: fixed\9;
+		width: 100% !important;
+		height: 100% !important;
+		top: 0 !important;
+	}
+	@-moz-document url-prefix() {
+		#ModalAboutYouTubeCover {position: fixed;}
+	}
+
+	#ModalAboutYouTube {
+		width: 100% !important;
+		height: 100% !important;
+		top: 0 !important;
+		left: 0 !important;
+		padding: 0 !important;
+	}
+
+	#ModalAboutYouTube .Inner {
+		width: 853px !important;
+		height: 530px !important;
+		margin: 300px auto 0 !important;
+	}
+
+	#ModalAboutYouTube .Movie,
+	#ModalAboutYouTube .Movie iframe {
+		width: 853px !important;
+		height: 480px !important;
+	}
+
+}

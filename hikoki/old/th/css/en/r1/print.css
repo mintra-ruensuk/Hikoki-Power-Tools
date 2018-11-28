@@ -1,0 +1,189 @@
+﻿@charset "UTF-8";
+
+/* **************************************************
+
+Name: print.css
+
+Description: Print CSS
+
+Create: 2014.02.13
+Update: XXXX.XX.XX
+
+Copyright 2014 Hitachi, Ltd.
+
+***************************************************** */
+
+
+
+/* content===========================================
+
+[-] Skip Link
+[s1] Header
+[s2] Site Identity Area
+[s3] Global Navigation System
+[s4] Horizontal Local Navigation Bar
+[s5] Breadcrumb Trail
+[-] Content Area
+[s6] Vertical Local Navigation Menu
+[s7] Footer
+[t2] Branding Image
+[p1] Pop-up Windows
+[c9] Footnote
+[c11] Link List
+
+===================================================== */
+
+body {
+	width: 965px;
+	background-color: #fff;
+}
+* html body { zoom: 67%; }
+/* */
+
+
+
+/* [-] Skip Link
+=========================================================================================== */
+
+#top {
+	height: 30px;
+	width: 965px;
+	background: #fff url("/image/en/r1/bg_for_print.gif") no-repeat 0 0;
+}
+#top a {
+	display: none;
+}
+
+
+
+/* [s1] Header
+=========================================================================================== */
+
+#HeaderArea {
+	width: 965px;
+	height: 45px;
+}
+
+
+/* --- [s1] Ultra Global Navigation --- */
+
+#HeaderArea:before {
+	width: 965px;
+}
+#HeaderArea #HeaderSet {
+	height: 45px;
+}
+
+
+
+/* [s2] Site Identity Area
+=========================================================================================== */
+
+#SiteIdentityL .Title,
+#SiteIdentityS .Title,
+#SiteIdentity .Title {
+	position: relative;
+	width: 950px;
+	padding-left: 15px;
+	z-index: 2;
+}
+
+
+
+/* [s3] Global Navigation System
+=========================================================================================== */
+
+.CourtesyNavi {
+	width: 950px;
+	height: 42px;
+	margin-top: -42px;
+	padding-right: 15px;
+}
+* html .CourtesyNavi {margin-top: -62px;}
+.CourtesyNavi li {top: 0;}
+* html .CourtesyNavi li {top: 0;}
+
+
+
+/* [s4] Horizontal Local Navigation Bar
+=========================================================================================== */
+
+#HorizontalLocalNavi:before {
+	width: 965px;
+}
+
+
+
+/* [s5] Breadcrumb Trail
+=========================================================================================== */
+
+#TopicPath {
+	margin: 0 auto 8px;
+	width: 965px;
+}
+* html div#TopicPath { zoom: 98%; }
+*:first-child+html div#TopicPath { zoom: 97%; }
+
+
+
+/* [-] Content Area
+=========================================================================================== */
+
+#Contents {
+	display: block;
+	clear: right;
+	margin: 0 auto;
+	width: 965px;
+	text-align: left;
+}
+* html body div#Contents { margin-bottom: 15px; }
+*:first-child+html div#Contents { margin-bottom: 15px; }
+
+
+
+/* [s6] Vertical Local Navigation Menu
+=========================================================================================== */
+
+
+
+/* [s7] Footer
+=========================================================================================== */
+
+#Footer {
+	width: 965px;
+}
+#Footer h2 {display: none; }
+
+#Footer ul {
+	width: 500px;
+	float: left;
+	padding-left: 15px;
+}
+#Footer p {
+	width: 400px;
+	float: right;
+	padding-right: 15px;
+}
+
+
+
+/* [c9] Footnote
+=========================================================================================== */
+
+/* --- [c9-1] Footnote > Text Size 90% --- */
+/* --- [c9-2] Footnote > Text Size 83% --- */
+/* --- [c9-3] Footnote > Text Size 67% --- */
+* html body dl.AdditionalNotesStyle1 dd { float: none; clear: both; margin: -1.25em 0 5px 1.6em; }
+* html body dl.AdditionalNotesStyle2 dd { float: none; clear: both; margin: -1.35em 0 4px 1.6em; }
+* html body dl.AdditionalNotesStyle3 dd { float: none; clear: both; margin: -1.3em 0 3px 1.6em; }
+*:first-child+html dl.AdditionalNotesStyle1 dd { float: none; clear: both; margin: -1.25em 0 5px 1.6em; }
+*:first-child+html dl.AdditionalNotesStyle2 dd { float: none; clear: both; margin: -1.35em 0 4px 1.6em; }
+*:first-child+html dl.AdditionalNotesStyle3 dd { float: none; clear: both; margin: -1.3em 0 3px 1.6em; }
+
+
+
+/* [c11] Link List
+=========================================================================================== */
+
+* html div.ImgSet {zoom: 98%; }
+*:first-child+html div.ImgSet {zoom: 97%; }

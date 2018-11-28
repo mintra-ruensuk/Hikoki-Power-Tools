@@ -1,0 +1,38 @@
+*{
+            margin:0;
+            padding:0;
+        }
+        #carouselWrap{
+            margin:0px auto;
+            position:relative;
+        }
+
+        #carouselPrev{
+            position:absolute;
+            top:126px;
+            left:0px;
+            cursor:pointer;
+        }
+        #carouselNext{
+            position:absolute;
+            top:126px;
+            right:0px;
+            cursor:pointer;
+        }
+        #carouse{
+            width:100%;
+            height:100%;
+            overflow:hidden;
+        }
+
+        #carouselInner ul.column{
+            list-style-type:none;
+        }
+        #carouselInner ul.column li{
+            float:left;
+            /*margin-right:10px;*/
+            display:inline;
+        }
+        #carouselInner ul.column li img{
+            border:none;
+        }

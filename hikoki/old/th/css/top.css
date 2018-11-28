@@ -1,0 +1,199 @@
+ul.sub_menu{
+	width:965px;
+	margin:1px 0 10px 0;
+	padding:0;
+}
+
+ul.sub_menu li{
+	margin:0;
+	padding:0 0 0 1px;
+	float:left;
+	display:inline-block;
+	width:192px;
+}
+
+/* =====バナー2コの時===== */
+ul.banner_2 {
+	margin: 0 0 15px;
+	font-size: 90%;
+	display:inline-block;
+	padding:0px;
+	width:720px;
+}
+
+ul.banner_2 li.left{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	float:left;
+	width:360px;
+}
+
+ul.banner_2 li.right{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	float:right;
+	width:360px;
+}
+
+div.main{
+	width:965px;
+	margin:20px 0 20px 0;
+	padding:0px;
+	float:both;
+	display:inline-block;
+}
+
+ul.main{
+	width:241px;
+	margin:0 3px 0 0;
+	padding:0px;
+	float:left;
+	display:inline-block;
+}
+
+ul.main li.pho{
+	margin:0px;
+	padding:0px;
+	width:190px;
+	float:left;
+	display:inline-block;
+	font-size:0pt;
+}
+
+ul.main li.pho img{
+	display:inline-block;
+	border-top-left-radius:10px;           /* 左上 IE */
+	border-top-right-radius:10px;          /* 右上 IE */
+	-webkit-border-top-left-radius:10px;   /* 左上 Safari,Chrome */
+	-webkit-border-top-right-radius:10px;  /* 右上 Safari,Chrome */
+	-moz-border-radius-topleft:10px;       /* 左上 Firefox*/
+	-moz-border-radius-topright:10px;      /* 右上 Firefox*/
+}
+
+ul.main li.sub{
+	float:left;
+	display:inline-block;
+	margin:0px;
+	padding:10px 0 10px 10px;
+	font-size:90%;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#333333;
+	width:230px;
+}
+
+ul.main li.txt{
+	background-color:#f2f2f2;
+	width:230px;
+	height:113px;
+	margin:0px;
+	padding:5px;
+	float:left;
+	display:inline-block;
+	border-bottom-left-radius:10px;           /* 左上 IE */
+	border-bottom-right-radius:10px;          /* 右上 IE */
+	-webkit-border-bottom-left-radius:10px;   /* 左上 Safari,Chrome */
+	-webkit-border-bottom-right-radius:10px;  /* 右上 Safari,Chrome */
+	-moz-border-botoom-topleft:10px;          /* 左上 Firefox*/
+	-moz-border-bottom-topright:10px;         /* 右上 Firefox*/
+}
+
+ul.main li.txt div.menu{
+	float:left;
+	display:inline-block;
+	margin:8px 0 0 0;
+	padding:0 0 0 10px;
+	width:180px;
+}
+
+ul.last{
+	width:230px;
+	margin:0px;
+	padding:0px;
+	/*float:right;*/
+	display:inline-block;
+}
+
+ul.last li.pho{
+	margin:0px;
+	padding:0px;
+	width:190px;
+	float:left;
+	display:inline-block;
+	font-size:0pt;
+}
+
+ul.last li.pho img{
+	display:inline-block;
+	border-top-left-radius:10px;           /* 左上 IE */
+	border-top-right-radius:10px;          /* 右上 IE */
+	-webkit-border-top-left-radius:10px;   /* 左上 Safari,Chrome */
+	-webkit-border-top-right-radius:10px;  /* 右上 Safari,Chrome */
+	-moz-border-radius-topleft:10px;       /* 左上 Firefox*/
+	-moz-border-radius-topright:10px;      /* 右上 Firefox*/
+}
+
+ul.last li.sub{
+	float:left;
+	display:inline-block;
+	margin:0px;
+	padding:10px 0 10px 10px;
+	font-size:90%;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#333333;
+	width:230px;
+}
+
+ul.last li.txt{
+	background-color:#f2f2f2;
+	width:230px;
+	height:113px;
+	margin:0px;
+	padding:5px;
+	float:left;
+	display:inline-block;
+	border-bottom-left-radius:10px;           /* 左上 IE */
+	border-bottom-right-radius:10px;          /* 右上 IE */
+	-webkit-border-bottom-left-radius:10px;   /* 左上 Safari,Chrome */
+	-webkit-border-bottom-right-radius:10px;  /* 右上 Safari,Chrome */
+	-moz-border-botoom-topleft:10px;          /* 左上 Firefox*/
+	-moz-border-bottom-topright:10px;         /* 右上 Firefox*/
+}
+
+ul.last li.txt div.menu{
+	float:left;
+	display:inline-block;
+	margin:8px 0 0 0;
+	padding:0 0 0 10px;
+	width:180px;
+}
+
+/* ===== 下のバナー ===== */
+ul.foot{
+	width:965px;
+	margin:10px 0 30px 0;
+	padding:0px;
+	float:both;
+	display:inline-block;
+}
+
+ul.foot li.left{
+	margin:0 15px 0 0;
+	padding:0px;
+	width:230px;
+	float:left;
+	display:inline-block;
+	font-size:0pt;
+}
+
+ul.foot li.right{
+	margin:0px;
+	padding:0px;
+	width:230px;
+	float:right;
+	display:inline-block;
+	font-size:0pt;
+}
